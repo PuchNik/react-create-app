@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 export default function App() {
-  const nowYear = new Date().getFullYear()
+  const nowYear = new Date().getFullYear() // Императивный
 
+      // Все остальное Декларативный
   return (
     <div className="App">
       <header className="App-header">
